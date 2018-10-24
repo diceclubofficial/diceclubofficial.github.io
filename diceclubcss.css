@@ -3,21 +3,68 @@ body {
   border: 1px solid lightblue;
 }
 
-h1 {
-
+.header {
+  background-color: rgb(220, 220, 220);
+  text-align: center;
+  padding: 20px;
 }
 
-div.imagetile {
+.topnav{
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.topnav a:hover {
+  background-color: #111;
+  color: white;
+}
+
+.topnav a:active {
+  background-color: Tomato;
+  color: black;
+}
+
+.column {
+  float: left;
+}
+
+.column.main {
+  width: 60%;
+}
+
+.column.side {
+  width: 40%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.membertile {
   border: 2px solid blue;
-  width: 30%;
 }
 
-img {
-  border: 2px solid black;
-}
-img.square {
+img.phototile {
   width: 100px;
   height: 100px;
+  border: 2px solid black;
 }
 
 .smaller {
