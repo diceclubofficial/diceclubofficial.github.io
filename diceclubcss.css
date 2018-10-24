@@ -1,0 +1,25 @@
+
+body {
+  border: 1px solid lightblue;
+}
+
+h1 {
+
+}
+
+div.imagetile {
+  border: 2px solid blue;
+  width: 30%;
+}
+
+img {
+  border: 2px solid black;
+}
+img.square {
+  width: 100px;
+  height: 100px;
+}
+
+.smaller {
+  font-size: 0.8em;
+}
