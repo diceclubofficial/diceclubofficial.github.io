@@ -1,6 +1,5 @@
 Features to add/fix:
--add better comments to organize
 -integrate newsletter and podcasts
 -add new linked sites to view newsletter/podcast history
--add all members side by side in side column
+-make member tiles inline divs
 -why does side column go to the bottom when padding exists?

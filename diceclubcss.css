@@ -41,27 +41,48 @@ body {
 
 .column {
   float: left;
+  display: inline;
 }
 
 .column.main {
   width: 60%;
+  /* border: 1px solid Tomato; */
+  box-sizing: border-box;
+  padding-right: 100px;
 }
 
 .column.side {
   width: 40%;
+  text-align: center;
+  /* border: 1px solid orange; */
+  box-sizing: border-box;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.column.side h3 {
+  margin-top: 100px;
+}
+
+.column.sideleft {
+  width: 50%;
+}
+
+.column.sideright {
+  width: 50%;
 }
 
 div.membertile {
-  border: 2px solid blue;
+  /* border: 1px solid lightgray; */
+  text-align: center;
+  height: 150px;
 }
 
-img.phototile {
+div.membertile h4 {
+  /* border: 1px solid black; */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.membertile img {
   width: 100px;
   height: 100px;
   border: 2px solid black;
