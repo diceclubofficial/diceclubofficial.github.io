@@ -1,7 +1,20 @@
-Features to add/fix:
--integrate newsletter and podcasts
--add new linked sites to view newsletter/podcast history
--add new linked sites and add blog (research how to do this)
--v0.2.0 is with different linked sites separating content
+Current Version: v0.1.5
+Next Major Version: v.0.2.0
+-different linked sites separating content
+
+For Next Major Version:
+-clean up code/fix bugs/answer questions
+-add newsletter/podcast history
+-style Menu of links in newsletter, podcast, and merch
+
+Future Features:
 -make pin image link to purchase more pins
--put confidential information behind a login/password screen
+-put confidential information behind a login/password screen\
+-make RSS feed for new blog/podcasts
+
+Bugs to fix:
+-why isn't menu bar sticky?
+-why don't links in menu bar stay blue when active?
+
+Questions to research:
+-audio tags stagger?
