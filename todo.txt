@@ -1,4 +1,7 @@
 Features to add/fix:
 -integrate newsletter and podcasts
 -add new linked sites to view newsletter/podcast history
--add merch page
+-add new linked sites and add blog (research how to do this)
+-v0.2.0 is with different linked sites separating content
+-make pin image link to purchase more pins
+-put confidential information behind a login/password screen
