@@ -92,11 +92,7 @@ h3, h4 {
 }
 
 /* Staff Side Column */
-<<<<<<< HEAD
-.side {
-=======
 .staff {
->>>>>>> dev
   width: 32%;
   float: right;
   background-color: rgb(250, 250, 250);
