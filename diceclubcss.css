@@ -1,9 +1,20 @@
-
+/* Overall Document */
 body {
-  font-family: Palatino, serif;
+  font-family: Georgia, serif;
   max-width: 1300px;
   margin: auto;
   box-sizing: border-box;
+  color: #555;
+  /* border: 2px solid Tomato; */
+}
+h2 {
+  text-transform: uppercase;
+  color: rgb(29, 29, 102);
+  border-bottom: 1px solid darkblue;
+  width: 50%;
+}
+h3 {
+  color: rgb(29, 29, 122);
 }
 
 /* Header */
@@ -18,6 +29,7 @@ body {
   font-weight: bold;
   padding: 0px;
   margin: 0px;
+  color: black;
 }
 
 /* Navigation Panel */
@@ -45,27 +57,42 @@ body {
   color: white;
 }
 
-/* Columns (Main and Side) */
+/* Columns */
 .column {
   float: left;
 }
-.column.main {
+
+/* Main Column */
+.main {
   width: 65%;
   box-sizing: border-box;
   padding-right: 100px;
   border-left: 1px solid black;
   padding-left: 20px;
+  background-color: white;
 }
-.column.side {
+.main .section {
+  padding-bottom: 50px;
+}
+
+/* Staff Side Column */
+.side {
   width: 35%;
-  /* border-left: 1px solid black; */
   background-color: rgb(250, 250, 250);
   text-align: center;
   box-sizing: border-box;
   border: 1px solid black;
+  bor
 }
-
-/* Staff Side Column */
+.side h2 {
+  margin-left: 25%;
+}
+.side h4 {
+  color: #333;
+}
+.side h5 {
+  color: #444;
+}
 .staffsection {
   float: left;
   /* border: 1px solid Tomato; */
@@ -104,4 +131,23 @@ body {
 /* Misc */
 .smaller {
   font-size: 0.8em;
+}
+.button {
+  box-sizing: border-box;
+  background-color: #444;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 112px;
+}
+.button a {
+  display: block;
+  float: left;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+.button a:hover {
+  background-color: #111;
 }
