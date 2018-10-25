@@ -1,184 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title> DICE Club </title>
-    <link rel="stylesheet" href="diceclubcss.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title> DICE Club </title>
+  <link rel="stylesheet" href="diceclubcss.css">
+</head>
+<body>
 
-    <!-- Header containing DICE Club logo -->
-    <div class="header">
-      <img src="media/widelogo.png" alt="The DICE Club logo" width="400" height="200">
+  <!-- Header -->
+  <div class="header">
+    <img src="media/widelogo.png" alt="The DICE Club logo" width="400" height="200">
+    <p>Alpha Version 0.1.0</p>
+  </div>
+
+  <!-- Navigation panel -->
+  <div class="topnav">
+    <a href="#overview">Overview</a>
+    <a href="#newsletter">Newsletter</a>
+    <a href="#podcast">Podcast</a>
+    <a href="#staff">Staff</a>
+  </div>
+
+  <!-- Main column contains main body of text -->
+  <div class="column main">
+    <h2 id="overview">Overview</h2>
+
+    <h3>Mission Statement</h3>
+    <p>To cultivate an inclusive community that expresses creativity and curiosity by exploring the ways in which probability affects the world through the study and celebration of polyhedra.</p>
+    <p>We plan to support the school's mission of crafting independent thinkers committed to global change by exploring the effects of chance on the world and our lives. Polyhedra, and dice in particular, represent a convenient way of examining probability's influence on all human efforts, and by their study in various contexts we hope to develop a deep comprehension of chance's omnipotence.</p>
+
+    <h3>Planned Activities</h3>
+    <ul>
+      <li>Reading and Discussion of 'Probability: For the Enthusiastic Beginner' by David J. Morin</li>
+      <li>Physical and computational experiments using dice and programming</li>
+      <li>Examinations of chance's portrayal in popular media</li>
+      <li>Practical demonstrations of chance through collaborative dice-based experiences</li>
+    </ul>
+    <p class="smaller"> Note: such demonstrations do not include gambling of any sort or involve any exchange of funds.</p>
+
+    <h3>Primary Goals</h3>
+    <ol>
+      <li>To create a valuable and productive community around dice and probability</li>
+      <li>To develop a complex understanding of the mechanics of statistical probability</li>
+      <li>To apply this understanding to the world around us.</li>
+    </ol>
+
+
+    <h3 id="newsletter">The DICE Club Daily Digest</h3>
+    <p>DICE Club's daily newsletter on relevant topics delivered straight to your inbox. </p>
+
+
+    <h3 id="podcast">Podcast</h3>
+    <audio controls src="media/dicepodcast.mp3">
+      <source src="media/dicepodcast.mp3" type="audio/mp3">
+      </audio>
     </div>
 
-    <!-- Navigation panel -->
-    <div class="topnav">
-      <a href="#overview">Overview</a>
-      <a href="#newsletter">Newsletter</a>
-      <a href="#podcast">Podcast</a>
-      <a href="#staff">Staff</a>
-    </div>
+    <!-- Side column contains member list and positions -->
+    <div class="column side">
 
-    <!-- Div with class "row" contains the rest of the site -->
-    <div class="row">
-      <!-- Main column contains main body of text -->
-      <div class="column main">
-        <h2 id="overview">Overview</h2>
+      <h2 id="staff">Staff</h2>
 
-        <h3>Mission Statement</h3>
-        <p>To cultivate an inclusive community that expresses creativity and curiosity by exploring the ways in which probability affects the world through the study and celebration of polyhedra.</p>
-        <p>We plan to support the school's mission of crafting independent thinkers committed to global change by exploring the effects of chance on the world and our lives. Polyhedra, and dice in particular, represent a convenient way of examining probability's influence on all human efforts, and by their study in various contexts we hope to develop a deep comprehension of chance's omnipotence.</p>
+      <!-- Executive Staff section -->
+      <div class="staffsection">
+        <h3>Executive Staff</h3>
 
-        <h3>Planned Activities</h3>
-        <ul>
-          <li>Reading and Discussion of 'Probability: For the Enthusiastic Beginner' by David J. Morin</li>
-          <li>Physical and computational experiments using dice and programming</li>
-          <li>Examinations of chance's portrayal in popular media</li>
-          <li>Practical demonstrations of chance through collaborative dice-based experiences</li>
-        </ul>
-        <p class="smaller"> Note: such demonstrations do not include gambling of any sort or involve any exchange of funds.</p>
-
-        <h3>Primary Goals</h3>
-        <ol>
-          <li>To create a valuable and productive community around dice and probability</li>
-          <li>To develop a complex understanding of the mechanics of statistical probability</li>
-          <li>To apply this understanding to the world around us.</li>
-        </ol>
-
-
-        <h3 id="newsletter">The DICE Club Daily Digest</h3>
-        <p>DICE Club's daily newsletter on relevant topics delivered straight to your inbox. </p>
-
-
-        <h3 id="podcast">Podcast</h3>
-        <audio controls src="media/dicepodcast.mp3">
-          <source src="media/dicepodcast.mp3" type="audio/mp3">
-        </audio>
+        <div class="membertile">
+          <h4>Zachary Braner '19</h4>
+          <h5>Executive and Co-President</h5>
+          <img src="media/zbraner.jpeg" alt="Zachary Braner">
+        </div>
+        <div class="membertile">
+          <h4>Colin Spiridonov '19</h4>
+          <h5>Executive and Co-President</h5>
+          <img src="media/cspiridonov.jpeg" alt="Colin Spiridonov">
+        </div>
+        <div class="membertile">
+          <h4>Davis Kedrosky '19</h4>
+          <h5>Executive and Co-President</h5>
+          <img src="media/dkedrosky.jpeg" alt="Davis Kedrosky">
+        </div>
       </div>
 
-      <!-- Side column contains member list and positions -->
-      <div class="column side">
-        <h2 id="staff">Staff</h2>
 
-        <!-- Centered title text as h3 -->
-        <h3>Executive Staff</h3>
-        <!-- Left panels in "column sideleft" -->
-        <div class="column sideleft">
-          <div class="membertile">
-            <h4>Zachary Braner '19</h4>
-            <h4>Executive and Co-President</h4>
-            <img src="media/zbraner.jpeg" alt="Zachary Braner">
-          </div>
-          <div class="membertile">
-            <h4>Colin Spiridonov '19</h4>
-            <h4>Executive and Co-President</h4>
-            <img src="media/cspiridonov.jpeg" alt="Colin Spiridonov">
-          </div>
-        </div>
-
-        <!-- Right panels in "column sideright" -->
-        <div class="column sideright">
-          <div class="membertile">
-            <h4>Davis Kedrosky '19</h4>
-            <h4>Executive and Co-President</h4>
-            <img src="media/dkedrosky.jpeg" alt="Davis Kedrosky">
-          </div>
-          <div class="membertile">
-
-          </div>
-        </div>
-
-        <!-- Sub-Executive Staff List -->
+      <!-- Sub-Executive Staff Section -->
+      <div class="staffsection">
         <h3>Sub-Executive Staff</h3>
-        <div class="column sideleft">
-          <div class="membertile">
-            <h4>Evan Truesdale '19</h4>
-            <h4>Chief Statistics Officer (CSO)</h4>
-            <img src="media/etruesdale.jpeg" alt="Evan Truesdale">
-          </div>
+
+        <div class="membertile">
+          <h4>Evan Truesdale '19</h4>
+          <h5>Chief Statistics Officer (CSO)</h5>
+          <img src="media/etruesdale.jpeg" alt="Evan Truesdale">
+        </div>
+        <div class="membertile">
+          <h4>William Harrington '20</h4>
+          <h5>Social Media Manager</h5>
+          <img src="media/wharrington.jpeg" alt="William Harrington">
         </div>
         <div class="membertile">
           <h4>Ethan Tift '19</h4>
-          <h4>Secretary and Fan Club Leader</h4>
+          <h5>Secretary and Fan Club Leader</h5>
           <img src="media/etift.jpeg" alt="Ethan Tift">
         </div>
+      </div>
 
-        <!-- Member List -->
+
+      <!-- Member Section -->
+      <div class="staffsection">
         <h3>Members</h3>
-        <!-- Left side -->
-        <div class="column sideleft">
-          <div class="membertile">
-            <h4>Adam Nussbaum '19</h4>
-            <h4>Member</h4>
-            <img src="media/anussbaum.jpeg" alt="Adam Nussbaum">
-          </div>
-          <div class="membertile">
-            <h4>Jason Dykstra '19</h4>
-            <h4>Member</h4>
-            <img src="media/jdykstra.jpeg" alt="Jason Dykstra">
-          </div>
-          <div class="membertile">
-            <h4>Sam Hodges '19</h4>
-            <h4>Member</h4>
-            <img src="media/shodges.jpeg" alt="Sam Hodges">
-          </div>
-          <div class="membertile">
-            <h4>Giancarlo Lopez '19</h4>
-            <h4>Member</h4>
-            <img src="media/glopez.jpeg" alt="Giancarlo Lopez">
-          </div>
-          <div class="membertile">
-            <h4>Ethan Davis '19</h4>
-            <h4>Member</h4>
-            <img src="media/edavis.jpeg" alt="Ethan Davis">
-          </div>
-          <div class="membertile">
-            <h4>Suraj Srinivasan '19</h4>
-            <h4>Member</h4>
-            <img src="media/ssrinivasan.jpeg" alt="Suraj Srinivasan">
-          </div>
-          <div class="membertile">
-            <h4>Leif Isaacson '19</h4>
-            <h4>Member</h4>
-            <img src="media/lisaacson.jpeg" alt="Leif Isaacson">
-          </div>
+
+        <div class="membertile">
+          <h4>Adam Nussbaum '19</h4>
+          <img src="media/anussbaum.jpeg" alt="Adam Nussbaum">
         </div>
-        <!-- Right side -->
-        <div class="column sideright">
-          <div class="membertile">
-            <h4>Aidan Bell '20</h4>
-            <h4>Member</h4>
-            <img src="media/abell.jpeg" alt="Aidan Bell">
-          </div>
-          <div class="membertile">
-            <h4>Kira Hirsch '19</h4>
-            <h4>Member</h4>
-            <img src="media/khirsch.jpeg" alt="Kira Hirsch">
-          </div>
-          <div class="membertile">
-            <h4>Thomas Meissner '19</h4>
-            <h4>Member</h4>
-            <img src="media/tmeissner.jpeg" alt="Thomas Meissner">
-          </div>
-          <div class="membertile">
-            <h4>Seth Washabaugh '19</h4>
-            <h4>Member</h4>
-            <img src="media/swashabaugh.jpeg" alt="Seth Washabaugh">
-          </div>
-          <div class="membertile">
-            <h4>Christian Tran '19</h4>
-            <h4>Member</h4>
-            <img src="media/ctran.jpeg" alt="Christian Tran">
-          </div>
-          <div class="membertile">
-            <h4>Evan Morgan '19</h4>
-            <h4>Member</h4>
-            <img src="media/emorgan.jpeg" alt="Evan Morgan">
-          </div>
+        <div class="membertile">
+          <h4>Jason Dykstra '19</h4>
+          <img src="media/jdykstra.jpeg" alt="Jason Dykstra">
+        </div>
+        <div class="membertile">
+          <h4>Sam Hodges '19</h4>
+          <img src="media/shodges.jpeg" alt="Sam Hodges">
+        </div>
+        <div class="membertile">
+          <h4>Giancarlo Lopez '19</h4>
+          <img src="media/glopez.jpeg" alt="Giancarlo Lopez">
+        </div>
+        <div class="membertile">
+          <h4>Ethan Davis '19</h4>
+          <img src="media/edavis.jpeg" alt="Ethan Davis">
+        </div>
+        <div class="membertile">
+          <h4>Suraj Srinivasan '19</h4>
+          <img src="media/ssrinivasan.jpeg" alt="Suraj Srinivasan">
+        </div>
+        <div class="membertile">
+          <h4>Leif Isaacson '19</h4>
+          <img src="media/lisaacson.jpeg" alt="Leif Isaacson">
+        </div>
+        <div class="membertile">
+          <h4>Aidan Bell '20</h4>
+          <img src="media/abell.jpeg" alt="Aidan Bell">
+        </div>
+        <div class="membertile">
+          <h4>Kira Hirsch '19</h4>
+          <img src="media/khirsch.jpeg" alt="Kira Hirsch">
+        </div>
+        <div class="membertile">
+          <h4>Thomas Meissner '19</h4>
+          <img src="media/tmeissner.jpeg" alt="Thomas Meissner">
+        </div>
+        <div class="membertile">
+          <h4>Seth Washabaugh '19</h4>
+          <img src="media/swashabaugh.jpeg" alt="Seth Washabaugh">
+        </div>
+        <div class="membertile">
+          <h4>Christian Tran '19</h4>
+          <img src="media/ctran.jpeg" alt="Christian Tran">
+        </div>
+        <div class="membertile">
+          <h4>Evan Morgan '19</h4>
+          <img src="media/emorgan.jpeg" alt="Evan Morgan">
+        </div>
+        <div class="membertile">
+          <h4>Cary Dornier '20</h4>
+          <img src="media/cdornier.png" alt="Cary Dornier">
         </div>
       </div>
     </div>
-
   </body>
-</html>
+  </html>
