@@ -18,6 +18,9 @@ h3, h4 {
 .aside {
   font-size: 0.8em;
 }
+strong {
+  color: darkblue;
+}
 
 /* Header */
 .header {
@@ -93,6 +96,9 @@ h3, h4 {
 .column.main .section {
   margin-bottom: 50px;
 }
+.column.main .section a {
+
+}
 
 /* Staff Column */
 .column.staff {
@@ -111,12 +117,14 @@ h3, h4 {
 }
 .staff__section {
   float: left;
+  width: 100%;
   margin-bottom: 50px;
 
   /* border: 1px solid Tomato; */
 }
 .staff__section h3 {
   width: 100%;
+
   /* border: 1px solid green; */
 }
 .staff__section__membertile {

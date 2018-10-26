@@ -1,24 +1,18 @@
 
-Current Version: v0.2.1
+Current Version: v0.2.2
 Next Major Version: v.0.3.0
--different linked sites separating content
-
-For v0.3.0:
 -add RSS feed and actual newsletter/podcast/blog entries
 
 For v0.4.0:
--add merch store
+-
 
 Future Features:
--make pin image link to purchase more pins
--put confidential information behind a login/password screen\
--make RSS feed for new blog/podcasts
--add newsletter/podcast history
+-put confidential information behind a login/password screen
 -make member tiles change with size of the window
--add contact us page to add email, Instagram, twitter
+-updated twitter feed in widget on the side
 
 Bugs to fix:
--faculty staff section doesn't fill whole space
+-
 
 Questions to research:
 -audio tags stagger?
