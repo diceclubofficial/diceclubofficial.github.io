@@ -35,6 +35,9 @@ strong {
   height: 240px;
   transition: all 0.3s ease;
 }
+.header a {
+  text-decoration: none;
+}
 .header:hover img {
   width: 450px;
   height: 225px;

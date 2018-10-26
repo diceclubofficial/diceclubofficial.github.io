@@ -1,5 +1,5 @@
 
-Current Version: v0.2.2
+Current Version: v0.2.3
 Next Major Version: v.0.3.0
 -add RSS feed and actual newsletter/podcast/blog entries
 
