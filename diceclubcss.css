@@ -21,41 +21,55 @@ h3, h4 {
 .header {
   background-color: rgb(220, 220, 220);
   text-align: center;
-  padding: 20px;
   border: 1px solid black;
   box-sizing: border-box;
+  height: 265px;
+}
+.header img {
+  width: 480px;
+  height: 240px;
+  transition: all 0.3s ease;
+}
+.header:hover img {
+  width: 450px;
+  height: 225px;
 }
 .header p {
   font-weight: bold;
   padding: 0px;
   margin: 0px;
-  color: black;
+  color: rgba(0, 0, 0, 0);
+  transition: all 0.3s ease;
+}
+.header:hover p {
+  color: rgba(0, 0, 0, 1);
 }
 
 /* Navigation Panel */
 .topnav{
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   background-color: #333;
   position: sticky;
   top: 0;
   width: 100%;
+  height: 40px;
   box-sizing: border-box;
+  /* border: 1px solid Tomato; */
 }
 .topnav a {
   float: left;
-  display: block;
+  background-color: #333;
   color: white;
   padding: 10px 16px;
   text-decoration: none;
   text-align: center;
+  /* border: 1px solid Violet; */
+  box-sizing: border-box;
 }
 .topnav a:hover {
   background-color: #111;
   color: white;
 }
-.topnav a:active {
+.topnav a.active {
   background-color: rgb(29, 29, 102);
   color: white;
 }
@@ -98,7 +112,9 @@ h3, h4 {
   background-color: rgb(250, 250, 250);
   text-align: center;
   box-sizing: border-box;
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .staff h2 {
   margin-left: 25%;
@@ -121,9 +137,8 @@ h3, h4 {
   width: 50%;
   float: left;
   box-sizing: border-box;
-  padding-bottom: 20px;
-  /* border: 1px solid Violet; */
-
+  padding-bottom: 30px;
+  height: 175px;
 }
 .membertile h4 {
   /* border: 1px solid lightblue; */
@@ -144,14 +159,33 @@ h3, h4 {
   margin-top: 5px;
 }
 
-/* Post History Panel */
-.history {
+/* Menu Panel */
+.menu {
   float: left;
   width: 20%;
   background-color: rgb(250, 250, 250);
-  border: 1px solid black;
+  /* background-color: rgb(200, 200, 200); */
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
   box-sizing: border-box;
   padding-left: 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: #555;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  width: 75%;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+  transition: all 1s ease;
+}
+.menu a:hover {
+  color: rgb(29, 29, 122);
+  width: 95%;
 }
 
 /* Misc */
