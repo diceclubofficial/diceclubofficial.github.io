@@ -4,7 +4,7 @@ Next Major Version: v.0.2.0
 -different linked sites separating content
 
 For Next Major Version:
--clean up code/fix bugs/answer questions
+-
 
 Future Features:
 -make pin image link to purchase more pins
@@ -14,7 +14,7 @@ Future Features:
 -make member tiles change with size of the window
 
 Bugs to fix:
--why isn't menu bar sticky?
+-
 
 Questions to research:
 -audio tags stagger?
