@@ -8,15 +8,15 @@
 <body>
 
   <!-- Header -->
-  <div class="header">
+  <div class="header" id="top">
     <a href="index.html">
       <img src="media/widelogo.png" alt="The DICE Club logo">
-      <p>Alpha Version 0.2.4</p>
+      <p>Alpha Version 0.2.5</p>
     </a>
   </div>
 
   <!-- Navigation Panel -->
-  <div class="topnav" id="topnav">
+  <div class="topnav">
     <a href="index.html" class="active">About Us</a>
     <a href="newsletter.html">Newsletter</a>
     <a href="podcast.html">Podcast</a>
@@ -26,7 +26,7 @@
   </div>
 
   <!-- Main Column -->
-  <div class="column main">
+  <div class="column main main--left">
 
     <div class="section">
       <h2>About Us</h2>
@@ -53,13 +53,15 @@
 
     <div class="section">
       <h3>The Acronym</h3>
-      <p>The DICE acronym is a FIA, a freely interpretable acronym. Some might say that the DICE acronym is recursive, like PHP, and they might be correct. One interpretation of the acronym is Discovering Instances of Chance in Everything; another just as valid yet more common interpretation is Diversity, Inclusion, and Community Engagement, which also happen to be among our values. </p>
+      <p>The DICE acronym is an FIA, a freely interpretable acronym. Some might say that the DICE acronym is recursive, like PHP, and they might be correct. One interpretation of the acronym is Discovering Instances of Chance in Everything; another just as valid yet more common interpretation is Diversity, Inclusion, and Community Engagement, which also happen to be among our values. </p>
     </div>
 
     <!-- Back to Top Button -->
-    <div class="button">
-      <a href="#topnav">Back to top</a>
-    </div>
+    <a href="#top">
+      <div class="back-to-top">
+        <p><strong>Back to top</strong></p>
+      </div>
+    </a>
 
   </div>
 
@@ -129,7 +131,7 @@
 
 
     <!-- Member Section -->
-    <div class="staff__section">
+    <div class="staff__section" id="members">
       <h3>Members</h3>
 
       <div class="staff__section__membertile">

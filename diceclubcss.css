@@ -1,6 +1,6 @@
 /* Overall Document */
 html {
-  background-color: #30415D;
+  background-color: #F8F1E5;
 }
 body {
   font-family: Georgia, serif;
@@ -27,23 +27,23 @@ strong {
 a {
   color: darkblue;
   text-decoration: none;
-  border-bottom: 1px solid #F7CE3E;
+  border-bottom: 2px solid #F9BA32;
   transition: all 0.2s ease;
 }
 a:visited {
-  color: #1A2930;
+  color: black;
   text-decoration: none;
+  border-bottom: 1px dashed #F9BA32;
 }
 a:hover {
   color: black;
   text-decoration: none;
-  border-bottom: 3px solid #F7CE3E;
+  border-bottom: 4px solid #F9BA32;
 }
 
 /* Header */
 .header {
-  margin-top: 20px;
-  background-color: rgb(220, 220, 220);
+  background-color: #E8E8E8;
   text-align: center;
   border: 1px solid black;
   box-sizing: border-box;
@@ -75,14 +75,14 @@ a:hover {
 
 /* Navigation Panel */
 .topnav {
-  background-color: #333;
+  background-color: #2F3131;
   overflow-y: hidden;
   width: 100%;
   box-sizing: border-box;
 }
 .topnav a {
   float: left;
-  background-color: #333;
+  background-color: #2F3131;
   color: white;
   padding: 10px 16px;
   text-decoration: none;
@@ -93,7 +93,7 @@ a:hover {
   /* border: 1px solid Violet; */
 }
 .topnav a:hover {
-  background-color: #0A1612;
+  background-color: black;
   color: white;
 }
 .topnav a.active {
@@ -105,29 +105,36 @@ a:hover {
 .column {
   float: left;
 }
+.column .section {
+  margin-bottom: 50px;
+}
 
-/* Main Column */
+/* Main Columns */
 .column.main {
-  width: 65%;
   box-sizing: border-box;
   border-left: 1px solid black;
   padding-left: 20px;
   padding-right: 150px;
-  background-color: rgb(250, 250, 250);
+  background-color: white;
 
   /* border: 1px solid Tomato; */
 }
-.column.main .section {
-  margin-bottom: 50px;
+.column.main--left {
+  width: 63%;
 }
-.column.main .section a {
+.column.main--right {
+  width: 80%;
+}
+.column.main--full-size {
+  width: 100%;
+  padding-right: 40%;
+}
 
-}
 
 /* Staff Column */
 .column.staff {
-  width: 35%;
-  background-color: rgb(250, 250, 250);
+  width: 37%;
+  background-color: #E8E8E8;
   text-align: center;
   box-sizing: border-box;
   border-left: 1px solid black;
@@ -160,13 +167,20 @@ a:hover {
 
   /* border: 1px solid lightgreen; */
 }
+#members .staff__section__membertile {
+  width: 33.33%;
+}
 .staff__section__membertile h4, h5 {
-  color: #333;
+  color: black;
   margin-top: 0;
   margin-bottom: 0;
   box-sizing: border-box;
+  font-size: 100%;
 
   /* border: 1px solid lightblue; */
+}
+#members .staff__section__membertile h4, h5 {
+  font-size: 80%;
 }
 .staff__section__membertile img {
   width: 100px;
@@ -175,11 +189,16 @@ a:hover {
   margin-top: 5px;
   margin-bottom: 30px;
 }
+#members .staff__section__membertile img {
+  width: 80px;
+  height: 80px;
+}
 
 /* Menu Panel */
 .column.menu {
   float: left;
   width: 20%;
+  height: 500px;
   background-color: rgb(250, 250, 250);
   border-left: 1px solid black;
   border-right: 1px solid black;
@@ -247,7 +266,38 @@ a:hover {
   padding: 10px 16px;
   text-align: center;
   text-decoration: none;
+  border: none;
 }
 .button a:hover {
   background-color: #111;
+}
+
+.back-to-top {
+  box-sizing: border-box;
+  width: 120px;
+  padding: 0px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  height: 100px;
+
+  /* border: 1px solid Tomato; */
+}
+.back-to-top p {
+  color: rgb(29, 29, 122);
+  padding-left: 10px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  margin-top: 0px;
+  border-bottom: none;
+  border-left: 2px solid #F9BA32;
+  border-top: 2px solid #F9BA32;
+  transition: all 0.5s ease;
+
+  /* border: 1px solid lightblue; */
+}
+.back-to-top:hover p {
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #F9BA32;
+  border-top: none;
 }
