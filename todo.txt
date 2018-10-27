@@ -1,5 +1,5 @@
 
-Current Version: v0.2.5
+Current Version: v0.2.6
 Next Major Version: v.0.3.0
 -add RSS feed and actual newsletter/podcast/blog entries
 
@@ -11,7 +11,6 @@ Future Features:
 -make member tiles change with size of the window
 -updated twitter feed in widget on the side
 -make Twitter account
--embed all forms in the website
 
 Bugs to fix:
 -
