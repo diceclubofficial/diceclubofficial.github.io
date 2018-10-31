@@ -1,5 +1,5 @@
 
-Current Version: v0.2.7
+Current Version: v0.2.8
 
 Future Features:
 -put confidential information behind a login/password screen
