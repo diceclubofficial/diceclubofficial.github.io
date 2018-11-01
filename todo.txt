@@ -1,11 +1,10 @@
 
-Current Version: v0.2.8
+Current Version: v0.2.9
 
 Future Features:
 -put confidential information behind a login/password screen
--make member tiles change with size of the window
--updated Twitter feed in widget on the side
--
+-make member tiles change with size of the window (use flexbox)
+-add fixed back to top button
 
 Bugs to fix:
 -pin image changes length (just add an actual image of a pin)

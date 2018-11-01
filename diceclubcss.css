@@ -24,7 +24,7 @@ h3, h4 {
 strong {
   color: #0A1612;
 }
-a {
+a:link {
   color: darkblue;
   text-decoration: none;
   border-bottom: 2px solid #F9BA32;
@@ -117,17 +117,30 @@ a:hover {
   padding-right: 150px;
   background-color: white;
 
-  /* border: 1px solid Tomato; */
+  border: 1px solid black;
 }
-.column.main--left {
+.column.main--with-menu-smaller {
   width: 63%;
 }
-.column.main--right {
+.column.main--with-menu {
   width: 80%;
 }
 .column.main--full-size {
   width: 100%;
   padding-right: 40%;
+}
+
+/* Widget */
+.column.widget {
+  width: 37%;
+  background-color: white;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 20px;
+  border: 1px solid black;
+}
+.column.widget h2 {
+  width: 75%;
 }
 
 
@@ -136,10 +149,8 @@ a:hover {
   width: 37%;
   background-color: #E8E8E8;
   text-align: center;
+  border: 1px solid black;
   box-sizing: border-box;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
 }
 .column.staff h2 {
   margin-left: 25%;
@@ -200,9 +211,7 @@ a:hover {
   width: 20%;
   height: 500px;
   background-color: rgb(250, 250, 250);
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
   box-sizing: border-box;
   padding-left: 20px;
 }
