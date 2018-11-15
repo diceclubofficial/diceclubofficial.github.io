@@ -1,4 +1,7 @@
 /* Overall Document */
+* {
+  box-sizing: border-box;
+}
 html {
   background-color: #F8F1E5;
 }
@@ -39,6 +42,26 @@ a:hover {
   color: black;
   text-decoration: none;
   border-bottom: 4px solid #F9BA32;
+}
+
+/* Columns */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid black;
 }
 
 /* Header */
@@ -102,84 +125,71 @@ a:hover {
 }
 
 /* Column */
-.column {
-  float: left;
-}
-.column .section {
+.section {
   margin-bottom: 50px;
 }
 
 /* Main Columns */
-.column.main {
-  box-sizing: border-box;
-  border-left: 1px solid black;
-  padding-left: 20px;
-  padding-right: 150px;
-  background-color: white;
-
-  border: 1px solid black;
-}
-.column.main--with-menu-smaller {
-  width: 63%;
-}
-.column.main--with-menu {
+.main--with-menu {
   width: 80%;
 }
-.column.main--full-size {
+.main--full-size {
   width: 100%;
   padding-right: 40%;
 }
 
 /* Widget */
-.column.widget {
-  width: 37%;
+.widget {
   background-color: white;
   text-align: center;
   box-sizing: border-box;
   padding-left: 20px;
   border: 1px solid black;
 }
-.column.widget h2 {
+.widget h2 {
   width: 75%;
 }
 
 
 /* Staff Column */
-.column.staff {
-  width: 37%;
+.staff {
+  padding: 0px;
   background-color: #E8E8E8;
   text-align: center;
   border: 1px solid black;
   box-sizing: border-box;
 }
-.column.staff h2 {
+.staff h2 {
   margin-left: 25%;
 
   /* border: 1px solid orange; */
 }
-.staff__section {
-  float: left;
-  width: 100%;
-  margin-bottom: 50px;
 
-  /* border: 1px solid Tomato; */
-}
-.staff__section h3 {
+.staff h3 {
   width: 100%;
 
   /* border: 1px solid green; */
 }
+.staff__section {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* border: 1px solid Tomato; */
+}
+
 .staff__section__membertile {
   text-align: center;
-  width: 50%;
-  float: left;
   box-sizing: border-box;
-  height: 175px;
+  width: 180px;
 
   /* border: 1px solid lightgreen; */
 }
 #members .staff__section__membertile {
-  width: 33.33%;
+  width: 140px;
 }
 .staff__section__membertile h4, h5 {
   color: black;
@@ -198,7 +208,7 @@ a:hover {
   height: 100px;
   border: 3px solid black;
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 #members .staff__section__membertile img {
   width: 80px;
@@ -206,7 +216,7 @@ a:hover {
 }
 
 /* Menu Panel */
-.column.menu {
+.menu {
   float: left;
   width: 20%;
   height: 500px;
@@ -215,7 +225,7 @@ a:hover {
   box-sizing: border-box;
   padding-left: 20px;
 }
-.column.menu a {
+.menu a {
   text-decoration: none;
   color: #555;
   float: left;
@@ -227,7 +237,7 @@ a:hover {
   border-bottom: 1px solid lightgrey;
   transition: all 1s ease;
 }
-.column.menu a:hover {
+.menu a:hover {
   color: rgb(29, 29, 122);
   width: 95%;
 }
