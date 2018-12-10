@@ -8,12 +8,13 @@
   <link rel="icon" type="image/png" href="media/die.png">
 </head>
 <body>
+  <script src="diceclubscript.js"></script>
 
   <!-- Header -->
   <div class="header" id="top">
     <a href="index.html">
       <img src="media/widelogo.png" alt="The DICE Club logo">
-      <p>Alpha Version 0.2.11</p>
+      <p>Alpha Version 0.2.12</p>
     </a>
   </div>
 
@@ -78,20 +79,20 @@
       <h3>Executive Staff</h3>
       <div class="staff__section">
 
-        <div class="staff__section__membertile">
+        <div class="staff__section__membertile" onclick="changeImage('zbraner');">
           <h4>Zachary Braner '19</h4>
           <h5>Co-President</h5>
-          <img src="media/people/zbraner.jpeg" alt="Zachary Braner">
+          <img src="media/people/zbraner.jpeg" alt="Zachary Braner" id="zbraner" onmouseover="changeImage('zbraner');" onmouseout="changeImage('zbraner');">
         </div>
         <div class="staff__section__membertile">
           <h4>Colin Spiridonov '19</h4>
           <h5>Co-President</h5>
-          <img src="media/people/cspiridonov.jpeg" alt="Colin Spiridonov">
+          <img src="media/people/cspiridonov.jpeg" alt="Colin Spiridonov" id="cspiridonov" onmouseover="changeImage('cspiridonov');" onmouseout="changeImage('cspiridonov');">
         </div>
-        <div class="staff__section__membertile">
+        <div class="staff__section__membertile" onclick="changeImage('dkedrosky');">
           <h4>Davis Kedrosky '19</h4>
           <h5>Co-President</h5>
-          <img src="media/people/dkedrosky.jpeg" alt="Davis Kedrosky">
+          <img src="media/people/dkedrosky.jpeg" alt="Davis Kedrosky" id="dkedrosky" onmouseover="changeImage('dkedrosky');" onmouseout="changeImage('dkedrosky');">
         </div>
       </div>
 
@@ -106,9 +107,9 @@
           <img src="media/people/etruesdale.jpeg" alt="Evan Truesdale">
         </div>
         <div class="staff__section__membertile">
-          <h4>William Harrington '20</h4>
+          <h4>Sam Hodges '19</h4>
           <h5>Social Media Manager</h5>
-          <img src="media/people/wharrington.jpeg" alt="William Harrington">
+          <img src="media/people/shodges.jpeg" alt="Sam Hodges">
         </div>
         <div class="staff__section__membertile">
           <h4>Ethan Tift '19</h4>
@@ -147,8 +148,8 @@
           <img src="media/people/jdykstra.jpeg" alt="Jason Dykstra">
         </div>
         <div class="staff__section__membertile">
-          <h4>Sam Hodges '19</h4>
-          <img src="media/people/shodges.jpeg" alt="Sam Hodges">
+          <h4>William Harrington '20</h4>
+          <img src="media/people/wharrington.jpeg" alt="William Harrington">
         </div>
         <div class="staff__section__membertile">
           <h4>Giancarlo Lopez '19</h4>
