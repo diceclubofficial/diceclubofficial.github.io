@@ -3,11 +3,10 @@ Current Version: v0.2.10
 
 Future Features:
 -use 12 column approach
--make member tiles change with size of the window (use flexbox)
+-make layout change based on device size
 -redesign back to top button
+-add featured news about probability/statistics/dice (studies, 538, etc)
+-add place for surveys and reports
 
-Bugs to fix:
--
-
-Questions to research:
--why can't I specify the header's height in %?
+Issues to fix:
+-locate pics inside of people directory
