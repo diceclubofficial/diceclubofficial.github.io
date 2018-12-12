@@ -43,6 +43,9 @@ a:hover {
   text-decoration: none;
   border-bottom: 4px solid #F9BA32;
 }
+.hidden {
+  display: none;
+}
 
 /* Columns */
 .col-1 {width: 8.33%;}
