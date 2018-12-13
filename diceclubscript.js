@@ -3,6 +3,7 @@ function sayHello() {
   alert("hello");
 }
 
+
 function generateMemberTiles() {
   var targetdiv = document.getElementById('targetdiv');
 
@@ -30,7 +31,7 @@ function generateMemberTiles() {
   // go through each section and do stuff
   for(var sectionPos in sections) {
     // make people array that contains every person
-    var rawData = document.getElementById(sections[sectionPos]).innerHTML;
+    var rawData = document.getElementById(sections[sectionPos]).innerHTML.trim();
     var people = rawData.split(",");
 
     html += "<h3>" + sectionHeadings[sectionPos] + "</h3>";
